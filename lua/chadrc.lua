@@ -16,9 +16,12 @@ M.base46 = {
 
 M.nvdash = { load_on_startup = true }
 M.ui = {
-      tabufline = {
+    tabufline = {
          lazyload = false
-     }
+    },
+    statusline = {
+       separator_style = "arrow",
+    },
 }
 
 return M
