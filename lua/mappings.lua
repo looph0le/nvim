@@ -11,9 +11,9 @@ local function change_scale(delta)
 end
 
 local function change_trans(delta)
-  local new_trans = vim.g.neovide_transparency + delta
+  local new_trans = vim.g.neovide_opacity + delta
   if new_trans <= 1.0 and new_trans >= 0.0 then
-    vim.g.neovide_transparency = vim.g.neovide_transparency + delta
+    vim.g.neovide_opacity = vim.g.neovide_opacity + delta
   end
 end
 

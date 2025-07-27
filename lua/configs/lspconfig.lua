@@ -1,6 +1,6 @@
 require("nvchad.configs.lspconfig").defaults()
 
-local servers = {"html", "cssls" , "ts_ls"}
+local servers = {"html", "cssls" , "ts_ls", "rust_analyzer"}
 
 local lspconfig = require("lspconfig")
 for _, server in ipairs(servers) do
